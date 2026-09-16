@@ -3,7 +3,7 @@ const { User } = require("../Models/user.schema");
 
 const addOwner = (password, name, email) => {
  //* const hasedPw = bcrypt.hash();
- bcrypt.hash("mainSabkaBhagwan", 10)
+ bcrypt.hash(password, 10)
   .then((data) => {
    User.create({
     name,
