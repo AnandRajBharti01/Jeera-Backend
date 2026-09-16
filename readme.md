@@ -1,6 +1,6 @@
 # 15/09/26.
-_ Create auth router, use it.
-_ Make login API (/api/auth/login).
-_make logout API (/api/auth/logout).
-_make me api (/api/auth/me).
-_use JWT, Cookies, proper error handling. bCrypt
+- Create auth router, use it.
+- Make login API (/api/auth/login).
+-make logout API (/api/auth/logout).
+-make me api (/api/auth/me).
+-use JWT, Cookies, proper error handling. bCrypt
